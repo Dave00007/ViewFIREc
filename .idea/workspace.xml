@@ -1,7 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16deb8cc-7ee4-494f-9058-b6009414e56d" name="Default Changelist" comment="All initial files" />
+    <list default="true" id="16deb8cc-7ee4-494f-9058-b6009414e56d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.directory" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ViewfinderWithFaceRecognition.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/Camera.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/react/asset-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/react/css/main.7041f508.chunk.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/react/css/main.7041f508.chunk.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/react/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/react/js/2.4b44abd2.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/react/js/2.4b44abd2.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/react/js/main.ecf04761.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/react/js/main.ecf04761.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/react/js/runtime~main.9d44af5e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/react/js/runtime~main.9d44af5e.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/react/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/react/media/logo.5d5d9eef.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/react/precache-manifest.78336cd403927f8c55dde2613e72f158.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/react/service-worker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/config/env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/config/jest/cssTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/config/jest/fileTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/config/paths.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/config/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/config/webpackDevServer.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/scripts/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/scripts/start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/scripts/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/serviceWorker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
+    </list>
     <ignored path="frontend/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +95,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/config/paths.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
+            <state relative-caret-position="95">
               <caret line="71" column="47" selection-start-line="71" selection-start-column="47" selection-end-line="71" selection-end-column="47" />
             </state>
           </provider>
@@ -109,7 +157,7 @@
     <option name="ONTO" value="refs/heads/master" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/frontend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -169,7 +217,32 @@
               <item name="ViewfinderWithFaceRecognition" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="~/PycharmProjects/ViewfinderWithFaceRecognition" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="frontend" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="config" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ViewfinderWithFaceRecognition" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/PycharmProjects/ViewfinderWithFaceRecognition" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="frontend" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="config" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="jest" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ViewfinderWithFaceRecognition" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/PycharmProjects/ViewfinderWithFaceRecognition" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="frontend" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="public" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ViewfinderWithFaceRecognition" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/PycharmProjects/ViewfinderWithFaceRecognition" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="frontend" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="scripts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ViewfinderWithFaceRecognition" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/PycharmProjects/ViewfinderWithFaceRecognition" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="frontend" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -243,7 +316,7 @@
       <workItem from="1555406887560" duration="5246000" />
       <workItem from="1555533114405" duration="7636000" />
       <workItem from="1555618489021" duration="4773000" />
-      <workItem from="1555624870420" duration="560000" />
+      <workItem from="1555624870420" duration="781000" />
     </task>
     <task id="LOCAL-00001" summary="All initial files">
       <created>1555623266016</created>
@@ -252,16 +325,23 @@
       <option name="project" value="LOCAL" />
       <updated>1555623266016</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="All initial files">
+      <created>1555625667036</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555625667036</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34625000" />
+    <option name="totallyTimeSpent" value="34846000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="0" width="1600" height="900" extended-state="7" />
+    <frame x="1920" y="0" width="1600" height="900" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26576576" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26576576" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -272,7 +352,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.56201553" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.56088084" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.33031088" />
@@ -506,7 +586,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/config/paths.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
+        <state relative-caret-position="95">
           <caret line="71" column="47" selection-start-line="71" selection-start-column="47" selection-end-line="71" selection-end-column="47" />
         </state>
       </provider>
