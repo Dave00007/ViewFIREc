@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Electronic Viewfinder",
+  "name": "Electronic viewfinder with face recognition based on the Raspberry Pi platform and web application.",
   "icons": [
     {
       "src": "favicon.ico",
