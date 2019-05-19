@@ -193,7 +193,7 @@ handleSubmit = (e) => {
     );
   }
 }
-const WrappedRegistrationForm = Form.create({ name: 'register' })(NewPersonForms);
+const WrappedRegistrationForm = Form.create()(NewPersonForms);
 export default WrappedRegistrationForm;
 
 

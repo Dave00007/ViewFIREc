@@ -1,10 +1,25 @@
 import React from 'react'
 import './App.css';
 import 'antd/dist/antd.css';
-import {Menu, Icon} from 'antd';
+import {Menu, Icon, Modal} from 'antd';
 import {Link} from 'react-router-dom';
 
 const SubMenu = Menu.SubMenu;
+
+function aboutInfo() {
+    Modal.info({
+      title: 'About application',
+      content: (
+        <div className="about-message">
+          <p>Electronic viewfinder with face recognition <br></br>
+             based on the Raspberry Pi platform and web application. </p>
+          <p>This is application created as a part of bachelor project</p>
+            <p>Created by Dawid Balicki<br></br>AGH 2019</p>
+        </div>
+      ),
+      onOk() {},
+    });
+  }
 
 function CustomMenu() {
 
@@ -54,7 +69,7 @@ function CustomMenu() {
                         </Link>
                         </Menu.Item>
                     <Menu.Item key="updatePersonKey">
-                        <Link style={textStyle} to="/train/gaindata/udpatePerson">
+                        <Link style={textStyle} to="/train/gaindata/updatePerson">
                             <span style={{fontSize:17}}>
                                 Update existing dataset
                             </span>
@@ -76,18 +91,18 @@ function CustomMenu() {
                     <span>Help</span>
                 </span>}>
                 <Menu.Item key="?helpKey">
-                    <Link style={textStyle} to="/help/?help">
+                    <Link style={textStyle}  to="/help">
                         <span style={{fontSize:17}}>
                             ? Help
                         </span>
                     </Link>
                 </Menu.Item>
-                <Menu.Item key="aboutKey">
-                    <Link style={textStyle} to="/help/about">
+                <Menu.Item key="aboutKey" onClick={aboutInfo}>
+                   {/* <Link style={textStyle} to="/help/about"> */}
                         <span style={{fontSize:17}}>
                             About
                         </span>
-                    </Link>
+                    {/*</Link>*/}
                 </Menu.Item>
             </SubMenu>
         </Menu>

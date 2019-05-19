@@ -29,11 +29,21 @@
   width: 60%;
 }
 
+.example-photo {
+  display: block;
+  margin-right: auto;
+  top: 40px;
+  margin-left: auto;
+  margin-bottom: 10px;
+  width: 60%;
+}
+
 .button-group {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 .button-save {
@@ -53,6 +63,59 @@
   font-size: 25px;
   font-weight: bold;
   float: left !important;
+}
+
+.help-page {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.about-message {
+  font-size: 17px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.footer-text {
+  text-align: center;
+  margin-top:-10px;
+}
+
+.update-table-buttons {
+  margin-left: 15px;
+}
+
+.switch-update-person {
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 60%;
+}
+
+.example-photo-text {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 60%;
+}
+
+.progress-bar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 50%;
+  margin-top: 15px;
+}
+
+.progress-text {
+  font-weight: bold;
+  font-size: 18px !important;
 }
 
 @keyframes App-logo-spin {

@@ -6,10 +6,11 @@ import 'antd/dist/antd.css';
 import {Layout} from 'antd';
 import CustomMenu from './CustomMenu';
 import Home from './Home';
-import About from './About';
 import AuditTrial from './AuditTrial';
 import NewPersonPage from './NewPersonPage';
 import UpdatePersonsPage from './UpdatePersonsPage';
+import UpdatePerson from './UpdatePerson';
+import Help from './Help';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 const {
@@ -19,8 +20,15 @@ const {
 class App extends Component {
 
     constructor() {
+
         super();
-    }
+      /*  //var socket = io.connect('http://' + document.domain + ':' + location.port)
+        var socket = require('socket.io-client')('http://localhost:5000');
+        socket.on('connect', function () {
+            socket.emit('client_connected', {data: 'New client'});
+            });*/
+        }
+
 
     render() {
 
@@ -37,18 +45,19 @@ class App extends Component {
 
                         <Header style={{background: "lightgray", padding: 0, height: 30}}/>
 
-                        <Content style={{margin: '0 0 0', overflow: 'initial', background: "lightgray"}}>
+                        <Content style={{margin: '0 0 0', overflow: 'initial', background: "lightgray", minHeight:400}}>
                             <Switch>
                                 <Route path="/" exact component={Home}/>
-                                <Route path="/help/about" component={About}/>
+                                <Route path="/help" component={Help}/>
                                 <Route path="/train/gaindata/newPerson" component={NewPersonPage}/>
                                 <Route path="/auditTrial" component={AuditTrial}/>
-                                <Route path="/train/gaindata/udpatePerson" component={UpdatePersonsPage}/>
+                                <Route path="/train/gaindata/updatePerson" component={UpdatePersonsPage}/>
+                                <Route path="/train/gaindata/updatePerson1" component={UpdatePerson}/>
                             </Switch>
                         </Content>
 
-                        <Footer style={{textAlign: 'center', bottom: 0, background: "lightgray"}}>
-                            Electronic Viewfinder 2019 Created by Dawid Balicki
+                        <Footer style={{ bottom: 0, background: "lightgray", position:"fixed", right:0, left:285, height:'5vh'}}>
+                            <p className="footer-text">Electronic Viewfinder 2019 Created by Dawid Balicki </p>
                         </Footer>
 
                     </Layout>

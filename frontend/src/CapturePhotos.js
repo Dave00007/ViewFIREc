@@ -52,6 +52,7 @@ class CapturePhotos extends React.Component {
                     style={{
                         marginLeft: 'auto',
                         marginRight: 'auto',
+                        marginBottom: 50,
                         display: 'block',
                         width: '70%',
                         marginTop: 15,

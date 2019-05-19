@@ -18,3 +18,7 @@ class DatabaseCommunication:
     def get_all_from_collection(self, collection_name):
         collection = self.mongo.db[collection_name]
         return collection.find()
+
+    def get_collection(self, collection_name):
+        collection = self.mongo.db[collection_name]
+        return collection
